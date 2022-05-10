@@ -1,46 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title> Assignment 2 -- HomePage</title>
-  <meta charset="utf-8">
-  <meta name="viewport"
-  content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap"
-  rel="stylesheet">
-</head>
-
-<body>
-  <section class="screenspace">
-    <h1>NAYANA'S WRITING PORTFOLIO</h1>
-    <header>
-      <a href="index.html"><img class="logo" src="images/logo.png" alt="Nayana's Writing Portfolio logo"></a>
-      <ul>
-        <li><a href="pages/about.html">ABOUT ME</a></li>
-        <li><a href="pages/publications.html">PUBLISHED WORK</a></li>
-        <div class="dropdown">
-          <li class="dropbtn"><a href="pages/pastwriting.html">WRITING</a></li>
-          <div class="drop-content">
-            <a href="pages/tremors.html">Piece One:<br>Tremors</a>
-            <a href="pages/departure.html">Piece Two:<br>Departure</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nayana's Portfolio | Home</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+  </head>
+	
+	
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light pt-2">
+      <a href="index.html"><img class="nav-logo" src="images/logo.svg" alt="website logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" id="nav-item-resume">
+            <a class="nav-link" href="pages/resume.html">RESUME</a>
+          </li>
+		  <li class="nav-item" id="nav-item-blog">
+            <a class="nav-link" href="pages/blog.html">BLOG</a>
+          </li>
+		  <li class="nav-item" id="nav-item-gallery">
+            <a class="nav-link" href="pages/gallery.html">GALLERY</a>
+          </li>
+		  <li class="nav-item" id="nav-item-contact">
+            <a class="nav-link" href="pages/contact.html">CONTACT</a>
+          </li>
+		  <li class="nav-item" id="nav-item-process">
+            <a class="nav-link" href="pages/process.html">PROCESS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+	<section>
+      <div class="jumbotron index-jumbotron">
+		  <video autoplay loop muted>
+			  <source src="videos/index-jumbotron.mp4">
+		  </video>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-10 col-12">
+              <h1 class="jumbotron-title">HOME</h1>
+            </div>
           </div>
         </div>
-      </ul>
-    </header>
+      </div>
+    </section>
+	  
+	
+	<section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-4 text-center">
+            <h1>WELCOME TO MY PORTFOLIO.</h1>
+		  </div>
+		  <div class="col-md-8 offset-md-2 col-12 text-center">
+            <p>Here you can find all the creative work I've done over the years including social media
+			   posts, written projects, presentations, and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+	  
+	  
+	<hr>
+	  
+	<section id="book-carousel-bg">
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col-12 mb-3">
+					<div class="text-center">
+						<h1 class="pt-3" id="book-carousel-title">SPOTLIGHT PROJECT: FOLK TALES OF THE WORLD</h1>
+					</div>
+				</div>
+				<div class="col-md-8 col-12 no-gutters">
+					<div id="book-carousel" class="carousel slide pb-5" data-ride="carousel">
 
-    <img class="head_image" src="images/head.jpg" alt="ink, quill, and parchment">
+					  <!-- Indicators -->
+					  <ul class="carousel-indicators">
+						<li data-target="#book-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#book-carousel" data-slide-to="1"></li>
+						<li data-target="#book-carousel" data-slide-to="2"></li>
+						<li data-target="#book-carousel" data-slide-to="3"></li>
+						<li data-target="#book-carousel" data-slide-to="4"></li>
+						<li data-target="#book-carousel" data-slide-to="5"></li>
+						<li data-target="#book-carousel" data-slide-to="6"></li>
+						<li data-target="#book-carousel" data-slide-to="7"></li>
+					  </ul>
 
-    <h2> Welcome to my writing portfolio!</h2>
-    <h3><a href="pages/pastwriting.html">click here for a full list of my past writing</a></h3>
+					  <!-- The slideshow -->
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img src="images/book-carousel/carousel-1.png" alt="Book Cover">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/book-carousel/carousel-2.png" alt="Book table of contents">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/book-carousel/carousel-3.png" alt="Title page: The Emperor With No Clothes">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/book-carousel/carousel-4.png" alt="Book page with illustration and text">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/book-carousel/carousel-5.png" alt="Book illustration of boy flying on kite">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/book-carousel/carousel-6.png" alt="Book illustration of a forest">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/book-carousel/carousel-7.png" alt="Book illustration of crocodiles feasting on human food">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/book-carousel/carousel-8.png" alt="Piles of printed books">
+						</div>
+					  </div>
 
-    <div class="footer">
-      <ul>
-        <a href="index.html"><li>BACK TO HOME</li></a>
-        <a href="pages/about.html"><li>CONTACT INFORMATION</li></a>
-      </ul>
-    </div>
+					  <!-- Left and right controls -->
+					  <a class="carousel-control-prev" href="#book-carousel" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#book-carousel" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					  </a>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-12 no-gutters">
+					<div class="book-carousel-description">
+						<h2>JIS BOOK PUBLISHING CLUB</h2>
+						<h3>President-Founder • Jakarta Intercultural School, Indonesia • 2017-18</h3>
+						<p>I started this project as a way to create fun educational content for underprivileged schools and libraries in my local community in Jakarta. I reached out to other students who I knew were dedicated, passionate, and creative, set the style guide and deadlines, and assembled and formatted our raw content into a full book.</p>
+						<p>I pitched the project to the school's PTA and obtained a larger grant than I had requested, allowing me to print hardcover copies of the book with high quality binding.</p>
+						<p>At the end of the school year, we were able to drive by and distribute 60 copies of the book to our community.</p>
+					</div>
+					<a class="btn mt-1" href="pages/resume.html" role="button" id="carousel-resume-btn">SEE MY RESUME FOR MORE PROJECTS</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	  
+    
+	<section>
+		<div class="container-fluid mb-4">
+			<div class="row">
+				<div class="col-md-4 col-12 card inner-page-cards p-0 m-0">
+					<img src="images/thumbnail-resume.jpg" alt="beach filled with mist">
+					<p class="mt-1 ml-2">Photo by Anonymous from Pixabay</p>
 
-  </section>
+					<div class="card-body">
+						<h3>RESUME</h3>
+						<p>Work experience, community service projects, clubs, and more.</p>
+					</div>
+					<a class="btn card-btn" id="btn-resume" href="pages/resume.html">VISIT MY RESUME</a>
+				</div>
+				<div class="col-md-4 col-12 card inner-page-cards p-0 m-0">
+					<img src="images/thumbnail-gallery.png" alt="trees in a forest">
+					<p class="mt-1 ml-2">Photo by Phyo Hein Kyaw from Pexels</p>
+					
+					<div class="card-body">
+						<h3>GALLERY</h3>
+						<p>Instagram posts, linkedin posts, and other social media content
+						   created for different jobs and companies.</p>
+					</div>
+					<a class="btn card-btn" id="btn-gallery" href="pages/gallery.html">VISIT MY GALLERY</a>
+				</div>
+				<div class="col-md-4 col-12 card inner-page-cards p-0 m-0">
+					<img src="images/thumbnail-blog.jpg" alt="waves on a beach">
+					<p class="mt-1 ml-2">Image by monicore from Pixabay</p>
 
-</body>
+					<div class="card-body">
+						<h3>BLOG POSTS</h3>
+						<p>Published work, writing from classes, and blog posts written and edited
+						   by me.</p>
+					</div>
+					<a class="btn card-btn" id="btn-blog" href="pages/blog.html">VISIT MY BLOG</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	  
+    <hr>
+	  
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 offset-md-1 col-12 text-center">
+            <h2>REACH OUT</h2>
+            <p>For any questions, comments, or communication, contact me by filling out the form below.</p>
+            <a href="pages/contact.html" class="btn" id="btn-contact">CONTACT FORM</a>
+          </div>
+		  <div class="col-md-5 col-12 text-center">
+            <h2>LEARN MORE</h2>
+            <p>Wondering how I designed and coded this website? Check out the process page for a detailed explanation.</p>
+            <a href="pages/process.html" class="btn" id="btn-process">PROCESS EXPLANATION</a>
+          </div>
+        </div>
+      </div>
+    </section>
+	  
+	  <hr>
+	  
+	  
+  <footer class="text-center footer footer-home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 offset-md-3">
+			  <p><a href="index.html">HOME</a></p>
+          </div>
+		  <div class="col-md-2">
+			  <p><a href="pages/contact.html">CONTACT</a></p>
+          </div>
+		  <div class="col-md-2">
+			  <p><a href="#">ABOUT ME</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	  
+	  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
 </html>

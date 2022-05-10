@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Portfolio Page Template</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light pt-2">
+      <a href="../index.html"><img class="nav-logo" src="../images/logo.svg" alt="website logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" id="nav-item-resume">
+            <a class="nav-link" href="resume.html">RESUME</a>
+          </li>
+		  <li class="nav-item" id="nav-item-blog">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+		  <li class="nav-item" id="nav-item-gallery">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+		  <li class="nav-item" id="nav-item-contact">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+		  <li class="nav-item" id="nav-item-process">
+            <a class="nav-link" href="process.html">PROCESS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+	  
+	<section>
+      <div class="jumbotron jumbotron-fluid contact-jumbotron">
+		  <video autoplay loop muted>
+			  <source src="../videos/contact-jumbotron.mp4">
+		  </video>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-1">
+              <h1 class="jumbotron-title">CONTACT</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	  
+	  
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <h1>REACH OUT</h1>
+            <p>Fill out the form below to contact me with any questions about my portfolio, further information about my work, or other topics.</p>
+          </div>
+		</div>
+	  </div>
+	</section>
+	  
+	<div id="contact-bg">
+	  
+	<section>
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-8 offset-md-2 col-12 contact-form pt-3 pb-4">
+				  <form action="/action_page.php">
+					  <div class="form-group">
+						  <label for="name">Name: </label>
+						  <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+					  </div>
+					  <div class="form-group">
+						  <label for="email">Email: </label>
+						  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+					  </div>
+					  <div class="form-group">
+						  <label for="question">Enter your message below: </label>
+						  <textarea id="question" name="question" rows="8" cols="68" placeholder=""></textarea>
+					  </div>
+					  <p>How did you hear about my portfolio?</p>
+					  <div class="custom-control custom-checkbox ml-3 pb-1">
+						  <input type="checkbox" class="custom-control-input" id="network1" name="network1" value="job-application">
+						  <label class="custom-control-label" for="network1">From a job application</label>
+					  </div>
+					  <div class="custom-control custom-checkbox ml-3 pb-1">
+						  <input type="checkbox" class="custom-control-input" id="network2" name="network2" value="social-media">
+						  <label class="custom-control-label" for="network2">On social media</label>
+					  </div>
+					  <div class="custom-control custom-checkbox ml-3 pb-1">
+						  <input type="checkbox" class="custom-control-input" id="network3" name="network3" value="social-media">
+						  <label class="custom-control-label" for="network3">Through word of mouth</label>
+					  </div>
+					  <div class="custom-control custom-checkbox ml-3 pb-1">
+						  <input type="checkbox" class="custom-control-input" id="network4" name="network4" value="social-media">
+						  <label class="custom-control-label" for="network4">From a networking event</label>
+					  </div>
+					  <div class="custom-control custom-checkbox ml-3 pb-1">
+						  <input type="checkbox" class="custom-control-input" id="network5" name="network5" value="social-media">
+						  <label class="custom-control-label" for="network5">Other</label>
+					  </div>
+					  <a href="#" type="submit" class="btn contact-btn mt-4">SEND</a>
+				  </form>
+			  </div>
+		   </div>
+		</div>
+	</section>
+
+    </div>
+	  
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 col-12 mt-4 text-center">
+					<h2>THANK YOU FOR YOUR MESSAGE!</h2>
+					<p>I will respond via email to your inquiry as soon as possible. Thank you for visiting my portfolio! For more urgent communication, call or text me on this number: </p>
+					<p id="contact-number">+1 (XXX) XXX - XXXX</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	  
+    <hr>
+    
+	  
+    <footer class="text-center footer footer-contact footer-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 offset-md-3">
+			  <p><a href="../index.html">HOME</a></p>
+          </div>
+		  <div class="col-md-2">
+			  <p><a href="contact.html">CONTACT</a></p>
+          </div>
+		  <div class="col-md-2">
+			  <p><a href="#">ABOUT ME</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	  
+	  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+	  
+	<!-- Custom JS file -->
+	<script src="../js/custom.js"></script>
+  </body>
+</html>
